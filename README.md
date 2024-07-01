@@ -5,13 +5,13 @@
 To get started, clone the repository and follow these commands:
 
 ```bash
-# Install dependencies
+# 1. Install dependencies
 npm install
 
-# Run the development server with nodemon on - localhost:3000
+# 2. Run the development server with nodemon on - localhost:3000
 nodemon index.js
 
-# Put these scripts to the top of observed web app header:
+# 3. Put these scripts to the top of observed web app header:
 
 *** 
 For NextJs:
@@ -40,6 +40,6 @@ For React and Vanilla JS:
     defer />
 
 
-# Run observed web app and check result in - hDOMSnapshot.json
+# 4. Run observed web app and check result in - hDOMSnapshot.json
 
 ```

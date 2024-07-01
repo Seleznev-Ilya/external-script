@@ -1,6 +1,6 @@
 (function () {
   const hDOMsnapshot = window.dataLayer.get('hDOMSnapshot');
-    console.log(hDOMsnapshot);
+
   fetch("http://localhost:3000/external", {
     method: "POST",
     headers: {

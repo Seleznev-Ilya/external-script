@@ -14,8 +14,6 @@ app.use(
 );
 app.use(bodyParser.json({ limit: "150mb" }));
 app.use(bodyParser.urlencoded({ limit: "150mb", extended: true }));
-
-// Use routes
 app.use('/', endpointRoutes);
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
